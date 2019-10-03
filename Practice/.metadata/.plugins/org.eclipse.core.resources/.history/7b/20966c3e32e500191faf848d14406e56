@@ -1,0 +1,19 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class LastDay1Test
+{
+
+	@Test
+	public void testStringE()
+	{
+		LastDay1 lastday = new LastDay1();	
+		boolean outcome = LastDay1.stringE("Hello");
+		
+		assertEquals(true, outcome);
+	}
+
+}

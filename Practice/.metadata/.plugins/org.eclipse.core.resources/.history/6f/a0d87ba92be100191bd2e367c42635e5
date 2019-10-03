@@ -1,0 +1,21 @@
+package practice;
+
+/**
+ * Count the number of "xx" in the given string. XX is 2
+ * countXX("abcxx") 5
+ *  countXX("xxx") 3
+ *   countXX("xxxx") 4
+ * @author tet19171871
+ *
+ */
+
+public class CountOverlapping
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

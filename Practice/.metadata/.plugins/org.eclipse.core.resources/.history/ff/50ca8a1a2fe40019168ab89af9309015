@@ -1,0 +1,14 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TemperatureTest {
+
+	@Test
+	public void testIcyHot() {
+		fail("Not yet implemented");
+	}
+
+}

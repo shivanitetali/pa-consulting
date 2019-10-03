@@ -1,0 +1,72 @@
+package practice;
+
+public class ifConditions 
+{
+	//global variables
+	private int a = 4;
+	private int b = 5;
+	
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+	public void printConditions()
+	{
+		if (a == b)
+		{
+			System.out.println(("A equals B"));
+		}
+		else
+		{
+			System.out.println("A is not equal to B");
+		}
+		
+		if (a < b)
+		{
+			System.out.println(("A is less than B"));
+		}
+		else
+		{
+			System.out.println("A is not less than B");
+		}
+		
+		if (a > b)
+		{
+			System.out.println(("A is greater than B"));
+		}
+		else
+		{
+			System.out.println("A is not greater than B");
+		}
+		
+		if (a <= b)
+		{
+			System.out.println(("A is less than or equal to  B"));
+		}
+		else
+		{
+			System.out.println("A is not less than or equal to B");
+		}
+		
+		if (a >= b)
+		{
+			System.out.println(("A is greater than or equal to  B"));
+		}
+		else
+		{
+			System.out.println("A is not greater than or equal to B");
+		}
+		
+		if (a != b)
+		{
+			System.out.println(("A is not equal to  B"));
+		}
+		else
+		{
+			System.out.println("A is equal to B");
+		}
+	}
+	
+}

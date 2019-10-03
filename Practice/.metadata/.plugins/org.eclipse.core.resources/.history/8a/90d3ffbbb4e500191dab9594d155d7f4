@@ -1,0 +1,34 @@
+package practice;
+
+import java.util.ArrayList;
+
+
+/**
+ * return an array of multiples of 5 between 0 and 100
+ * @author tet19171871
+ *
+ */
+public class Multiple
+{
+	public static void main(String[] args)
+	{
+		boolean printed = false;
+        for(int i = 0 ; i < 100; i++)
+        {
+            printed = false;
+              if(i%3 == 0 && printed == false)
+              {
+              System.out.println(i);
+               printed = true;
+              }
+              if (i%5==0 && printed == false) 
+            	  {
+            	  System.out.println(i);  
+            	  }
+		
+	}
+	
+	
+	}
+}
+

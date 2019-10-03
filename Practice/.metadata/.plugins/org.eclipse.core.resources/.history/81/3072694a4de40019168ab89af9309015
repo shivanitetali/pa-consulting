@@ -1,0 +1,18 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MiddleTest
+{
+
+	@Test
+	public void test()
+	{
+		MiddleTest stringUnit = new MiddleTest();
+		String outcome = stringUnit.middleTwo("string");
+		assertEquals("ri",outcome);
+	}
+
+}

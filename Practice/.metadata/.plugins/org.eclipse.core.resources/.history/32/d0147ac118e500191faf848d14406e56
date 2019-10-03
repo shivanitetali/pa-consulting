@@ -1,0 +1,43 @@
+package practice;
+
+
+/**
+ * balancedBrackets("[()]")
+ * Input: exp = "[()]"
+ * Output: Balanced
+ * 
+ * Input: exp = "{()}"
+ * Output: Balanced
+ * 
+ * Input: exp = "[]{}()"
+ * Output: Balanced
+ * 
+ * Input: exp = "[)[)"
+ * Output: Not Balanced
+ * 
+ * Input: exp = "()]()"
+ * Output: Not Balanced
+ * 
+ * @author tet19171871
+ *
+ */
+public class Brackets 
+{
+	public static String balancedBrackets(String Balanced ) 
+	{		
+		//System.out.println(Balanced);
+		return "Balanced" + Balanced;
+		
+	}
+
+}
+
+/**
+ * String split into array of char
+ * length of the array
+ * checked every index
+ * variable to count
+ * counted how many open and close brackets
+ * if they were equal
+ * result balanced
+ */

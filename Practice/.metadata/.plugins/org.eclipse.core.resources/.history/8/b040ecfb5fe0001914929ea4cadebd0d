@@ -1,0 +1,13 @@
+package practice;
+
+public class SleepIn 
+{
+
+	public static void main(String[] args)
+	{
+		public void SleepIn();
+		
+
+	}
+
+}

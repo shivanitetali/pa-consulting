@@ -1,0 +1,14 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MultipleTest {
+
+	@Test
+	public void testMultiplesOfFive() {
+		fail("Not yet implemented");
+	}
+
+}

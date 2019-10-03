@@ -1,0 +1,14 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MiddleTest {
+
+	@Test
+	public void testMiddleTwo() {
+		fail("Not yet implemented");
+	}
+
+}

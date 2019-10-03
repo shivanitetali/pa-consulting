@@ -1,0 +1,23 @@
+package practice;
+
+public class MiddleTwo 
+{
+
+	public static void main(String[] args) 
+	{
+		MiddleTwo middleTwo = new MiddleTwo();
+		String outcome = middleTwo.middleTwo("string");
+	}
+		
+		public String middleTwo(String str)
+		{
+			int length = str.length() / 2;
+			String newString = str.substring(length -1, length + 1);
+		}
+		
+		return newString;
+		
+
+	}
+
+}

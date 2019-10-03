@@ -1,0 +1,24 @@
+package practice;
+
+public class forConditions 
+{
+
+//	public static void main(String[] args)
+//	{
+//		//if there is no method here ,then the console will not print anything
+//		//date type is ifConditions
+//		//variable is ifConditions
+//				
+//		forConditions forConditions = new forConditions();
+//		forConditions.forConditions();
+//
+//	}
+	
+	public void forConditions()
+	{
+		for(int index = 0; index < 10; index++)
+		{
+			System.out.println("index: " + index);
+		}
+	}
+}

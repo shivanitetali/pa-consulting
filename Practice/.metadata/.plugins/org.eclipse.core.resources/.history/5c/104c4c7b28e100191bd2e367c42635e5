@@ -1,0 +1,33 @@
+package practice;
+
+/**
+ * Given two temperatures, return true if one is less than 0 and the other is greater than 100.
+ * icyHot(120, -1) is true
+ * icyHot(-1, 120) is true
+ * icyHot(2, 120) is false
+ * 
+ * @author tet19171871
+ *
+ */
+public class icyHot
+{
+
+	//variables
+	int i = 120;
+	int x = -1;
+	int y = 2;
+	
+	public static void main(String[] args)
+	{
+		Temperature temperature = new Temperature;
+		Temperature.temperature();
+		
+
+	}
+	
+	public void icyHot()
+	{
+		if ( )
+	}
+
+}

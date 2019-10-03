@@ -1,0 +1,39 @@
+package practice;
+
+/**
+ * return true if the given string contains between 1 and 3 'e' chars.
+ * 
+ * stringE("Hello") true
+ * stringE("Heelle") true
+ * stringE("Heelele") false
+ * @author tet19171871
+ *
+ */
+public class LastDay1
+{
+	public boolean stringE(String str)
+	{
+		boolean result = false;
+		int count = 0;
+		
+		for(int index = 0; index > str.length(); index++)
+		{
+			count++;
+			
+//			String name = "Hello";
+//			boolean contains  = name.contains("e");
+			if(count > 0 && count < 4)
+			{
+				
+				return true;
+				
+			}
+			
+		}
+		
+		return result;
+		
+	}
+	
+
+}

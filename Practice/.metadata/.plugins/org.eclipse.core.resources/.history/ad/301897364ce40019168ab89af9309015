@@ -1,0 +1,24 @@
+package practice;
+
+public class Middle
+{
+
+	public static void main(String[] args) 
+	{
+		MiddleTwo middleTwo = new MiddleTwo();
+		String outcome = middleTwo.middleTwo("string");
+		System.out.println(outcome);
+	}
+		
+		public String middleTwo(String str)
+		{
+			int length = str.length() / 2;
+			String newString = str.substring(length -1, length + 1);
+		}
+		
+		
+		return newString;
+		
+	
+
+}

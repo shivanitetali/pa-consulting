@@ -1,0 +1,55 @@
+package practice;
+
+public class StringExample 
+{
+	public static void main(String[] args)
+	{
+		StringExample examples = new StringExample();
+		examples.firstCharacter();
+		examples.startCharacter();
+		examples.endsCharacter();
+		examples.subCharacter();
+	}
+	
+	public void firstCharacter()
+	{
+		String name = "shivani";
+		char letter = name.charAt(2);
+		//below will throw index out of range exception
+		//char letter = name.charAt(8);
+		
+		System.out.println(letter);
+	}
+
+	public void startCharacter()
+	{
+		String name = "shivani";
+		//will not print, as the String starts with sh and not sr
+		boolean startWith = name.startsWith("sr");
+		if(startWith)
+		{
+			System.out.println("it starts with the character");
+		}
+	}
+				
+		
+	public void endsCharacter()
+	{
+			String name = "shivani";
+			//will print ni as the string ends with ni
+			boolean endsWith = name.endsWith("ni");
+			if(endsWith)
+			{
+				System.out.println("it ends with the character");
+			}
+		
+	}
+	
+	public void subCharacter()
+	{
+		String name = "shivani";
+		String subCharacter = name.substring(2, 4);
+		System.out.println( subCharacter);
+	}
+	
+}

@@ -1,0 +1,11 @@
+package practice;
+
+/**
+ * return an array of multiples of 5 between 0 and 100
+ * @author tet19171871
+ *
+ */
+public class Multiple
+{
+
+}

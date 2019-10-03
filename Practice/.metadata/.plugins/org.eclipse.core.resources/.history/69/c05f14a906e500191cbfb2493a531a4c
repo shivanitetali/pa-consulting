@@ -1,0 +1,19 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BracketsTest
+{
+
+	@Test
+	public void testInputBalanced()
+	{
+		String result = Brackets.balancedBrackets("[()]");
+		
+		assertEquals("[()]",result);
+		
+	}
+
+}

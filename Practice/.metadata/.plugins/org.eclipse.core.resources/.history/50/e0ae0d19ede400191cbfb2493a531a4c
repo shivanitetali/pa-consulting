@@ -1,0 +1,37 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MiddleTest
+{
+
+	@Test
+	public void testMiddleTwostring() 
+	{
+		Middle middle = new Middle();		
+		String outcome = middle.middleTwo("string");
+		assertEquals("ri", outcome);	
+	}
+	
+	@Test
+	public void testMiddleTwocode() 
+	{
+		Middle middle = new Middle();		
+		String outcome1 = middle.middleTwo("code");
+		assertEquals("od", outcome1);	
+	}
+	
+	@Test
+	public void testMiddleTwoPractice() 
+	{
+		Middle middle = new Middle();		
+		String outcome2 = middle.middleTwo("Practice");
+		assertEquals("ct", outcome2);	
+	}
+	
+	
+}
+
+

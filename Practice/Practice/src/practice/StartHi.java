@@ -1,0 +1,26 @@
+package practice;
+
+/**
+ * Given a string,return true if the string starts with "hi" and false otherwise.
+ * startHi("hi there") is true
+ * startHi("hi") is true
+ * startHi("hello hi") is false
+ * @author tet19171871
+ *
+ */
+public class StartHi
+{
+
+	public static void main(String[] args)
+	{
+		//created an instance
+		StartHi startHi = new StartHi();
+		
+	}
+
+	public boolean startHi(String sentence)
+	{
+		System.out.println();
+		return true;
+	}
+}

@@ -1,0 +1,25 @@
+package practice;
+
+public class StringContains 
+{
+
+	public static void main(String[] args) 
+	{
+		StringContains letters = new StringContains();
+		
+		letters.containString();
+		
+	}
+	
+	public void containString()
+	{
+		String name = "shivani";
+		boolean contains  = name.contains("iv");
+		if(contains)
+		{
+			System.out.println("it contains");
+		}
+		
+	}
+
+}

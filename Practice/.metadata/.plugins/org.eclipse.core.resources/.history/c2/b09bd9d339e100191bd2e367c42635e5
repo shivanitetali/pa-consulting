@@ -1,0 +1,54 @@
+package practice;
+
+/**
+ * Given a non-empty string and an int N, return the string made starting with char 0,
+ * and then every Nth char of the string.
+ * So if N is 3, use char 0, 3, 6,... and so on. N is
+ * 
+ * everyNth("Miracle", 2) is "Mrce"
+ * everyNth("abcdefg", 2) is "aceg"
+ * everyNth("abcdefg", 2) is "adg"
+ *  * 
+ * @author tet19171871
+ *
+ */
+public class EveryNthChar 
+{
+
+	int index = 0;
+	String s;
+	
+	public static void main(String[] args)
+	{
+		//created instance to call the method
+		EveryNthChar everynthchar = new EveryNthChar();
+		String outcome = everynthchar.everyNth("Miracle", 2);
+		System.out.println(outcome);
+		
+		String outcome1 = everynthchar.everyNth("abcdefg", 2);
+		System.out.println(outcome1);
+		
+		String outcome2 = everynthchar.everyNth("abcdefg", 2);
+		System.out.println(outcome2);
+		
+		
+	}
+
+	//returns information to the main method and returns the result
+	public String everyNth(String str, int index)
+	{
+		
+		for ( int index1 = 0; index1 < str.length(); index1++)
+		{
+			System.out.println(index1);
+			
+		}
+		
+		String result;
+		String str1 = "Mrce";
+		str1.charAt(2);
+	
+		return str1;
+		
+	}
+}

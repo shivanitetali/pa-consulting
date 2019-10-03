@@ -1,0 +1,26 @@
+package practice;
+
+public class Hello 
+{
+
+	public boolean stringE(String str)
+	{
+		String s1 = "Hello";
+		String s2 = "e";
+		boolean b = s1.contains(s2);
+		
+		if (b) {
+		    int index = s1.indexOf(s2);
+		    if (index >= 0)
+		    {
+		    	return true;
+		    }
+		     
+		    return true;
+		}
+	}
+	
+	// This example display the following output:
+//	    'fox' is in the string 'The quick brown fox jumps over the lazy dog': True
+//	    'fox begins at character position 17
+}

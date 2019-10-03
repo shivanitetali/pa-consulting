@@ -1,0 +1,34 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PickingLettersTest
+{
+
+	@Test
+	public void testEveryNth()
+	{
+		PickingLetters pickingLetters = new PickingLetters();
+		String outcome = pickingLetters.everyNth("Miracle", 2);
+		assertNotEquals("", outcome);
+	}
+	
+	@Test
+	public void testEveryNth1()
+	{
+		PickingLetters pickingLetters = new PickingLetters();
+		String outcome = pickingLetters.everyNth("Miracle", 2);
+		assertEquals("", outcome);
+	}
+	
+	@Test
+	public void testEveryNth2()
+	{
+		PickingLetters pickingLetters = new PickingLetters();
+		String outcome = pickingLetters.everyNth("Miracle", 2);
+		assertNotEquals("", outcome);
+	}
+
+}

@@ -1,0 +1,14 @@
+package practice;
+
+public class LastDay 
+{
+
+	public String returnSomething(String word) 
+	{
+		String result = "";
+		
+		return result;
+
+	}
+
+}

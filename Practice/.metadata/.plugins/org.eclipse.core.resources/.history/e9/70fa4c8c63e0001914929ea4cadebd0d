@@ -1,0 +1,18 @@
+package practice;
+
+public class MethodExample
+{
+
+	public static void main(String[] args)
+	{
+		MethodExample example = new MethodExample();
+		example.sleepIn();
+
+	}
+	
+	public void sleepIn(boolean tooSleepIn)
+	{
+		
+	}
+
+}

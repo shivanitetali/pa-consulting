@@ -1,0 +1,122 @@
+package practice;
+
+import java.util.ArrayList;
+
+//class contains the methods
+//create and array of animals Elephant, Rhino, Lion and a Dog and Cat to the array
+//remove the Elephant from the array
+//remove all animals from the array and print that it is empty
+public class Animal
+{
+
+	public static void main(String[] args)
+	{
+		Animal animal = new Animal();
+		ArrayList<String> listOfAnimals = animal.createAnimalArray();
+		ArrayList<String> listOfAnimalExtra = animal.addDogAndCat(listOfAnimals);
+		ArrayList<String> listOfAnimalsLess = animal.removeElephant(listOfAnimalExtra);
+		
+		System.out.println(listOfAnimalExtra.size());
+		
+		
+//		Animals names = new Animals();
+//		
+//		ArrayList<String> array = names.list();
+//		//prints the size of the animals in the array list
+//		System.out.println("Array List: " + array);
+//		
+//		ArrayList<String> array1 = names.addAnimals();
+//		//prints the size after adding the animals to the array list
+//		System.out.println("List of Array after adding 2 animals: " + array1);
+//				
+//		ArrayList<String> array2 = names.removeAnimals();
+//		System.out.println("List of Array after removing Elephant: " + array2);
+//		
+//		ArrayList<String> array3 = names.removeAllAnimals();
+//		System.out.println("Array List is empty after removing all the animals: " + array3);
+
+	}
+	
+	public ArrayList<String> createAnimalArray()
+	{
+		ArrayList<String> animalList = new ArrayList<String>();
+		animalList.add("Elephant");
+		animalList.add("Rhino");
+		animalList.add("Lion");
+		
+		return animalList;
+				
+	}
+	
+	public ArrayList<String> addDogAndCat(ArrayList<String> animalList)
+	{
+		
+		animalList.add("Dog");
+		animalList.add("Cat");
+		
+		return animalList;
+				
+	}
+	
+	public ArrayList<String> removeElephant(ArrayList<String> animalList)
+	{
+		if(animalList.contains("Elephant"))
+		{
+			animalList.remove("Elephant");
+		}
+				
+		return animalList;
+				
+	}
+//	
+//	//add list of animals to the array list
+//	public ArrayList<String>list()
+//	{
+//		ArrayList<String> listOfAnimals = new ArrayList<String>();
+//		listOfAnimals.add("Elephant");
+//		listOfAnimals.add("Rhino");
+//		listOfAnimals.add("Lion");
+//		
+//		return listOfAnimals;
+//	}
+//	
+//	//add list of animals to the array list
+//	public ArrayList<String>addAnimals(ArrayList<String> array)
+//	{
+//		//ArrayList<String> listOfAnimals = new ArrayList<String>();
+////		listOfAnimals.add("Elephant");
+////		listOfAnimals.add("Rhino");
+////		listOfAnimals.add("Lion");
+//		array.add("Dog");
+//		array.add("Cat");
+//
+//		return listOfAnimals;
+//			
+//	}
+//	
+//	//remove elephant from the arraylist
+//	public ArrayList<String>removeAnimals()
+//	{
+//		ArrayList<String> listOfAnimals = new ArrayList<String>();
+//		listOfAnimals.add("Elephant");
+//		listOfAnimals.add("Rhino");
+//		listOfAnimals.add("Lion");
+//		listOfAnimals.add("Dog");
+//		listOfAnimals.add("Cat");
+//		listOfAnimals.remove(0);
+//		
+//		return listOfAnimals;
+//		
+//	}
+//	
+//	//remove all the animals from the ArrayList
+//	public ArrayList<String>removeAllAnimals()
+//	{
+//		ArrayList<String> listOfAnimals = new ArrayList<String>();
+//		listOfAnimals.removeAll(listOfAnimals);
+//		
+//		return listOfAnimals;
+//		
+//	}
+
+}

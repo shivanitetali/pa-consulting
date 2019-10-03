@@ -1,0 +1,27 @@
+package practice;
+
+
+/**
+ * balancedBrackets("[()]")
+ * Input: exp = "[()]
+ * Output: Balanced
+ * 
+ * Input: exp = "{()}"
+ * Output: Balanced
+ * 
+ * Input: exp = "[]{}()"
+ * Output: Balanced
+ * 
+ * Input: exp = "[)[)"
+ * Output: Not Balanced
+ * 
+ * Input: exp = "()]()"
+ * Output: Not Balanced
+ * 
+ * @author tet19171871
+ *
+ */
+public class Brackets 
+{
+
+}

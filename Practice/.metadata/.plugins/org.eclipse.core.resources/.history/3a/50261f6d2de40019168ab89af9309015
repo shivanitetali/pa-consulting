@@ -1,0 +1,40 @@
+package practice;
+
+public class FizzBuzz 
+{
+
+	public static void main(String[] args) 
+	{
+		public boolean equalsIgnoreCase(String "FizzBuzz")
+	}
+	
+		
+		
+		public String fizzString(String str)
+		{
+		   String newString = "";
+		   
+		   //we would need to write the first method for fizzbuzz as if we test for Fizz or Buzz then it will never print FizzBuzz
+		   if(String newString starts with "f" and ends with "b")
+		   {
+		    System.out.println("FizzBuzz") 
+		   }
+		   
+		      else if(String newString ends with "b")
+		   {
+		    System.out.println("Buzz") 
+		   }
+		  
+		      else if(String newString starts with "f")
+		      {
+		        System.out.println("Fizz") 
+		      }
+		  
+		  
+		  return newString;
+		  
+		}
+
+	}
+
+}

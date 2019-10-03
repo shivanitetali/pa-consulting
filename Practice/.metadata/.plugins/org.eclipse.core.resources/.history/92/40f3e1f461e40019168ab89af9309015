@@ -1,0 +1,13 @@
+package practice;
+
+/**
+ * isPalindrome("hannah") true
+ * isPalindrome("martin") false
+ * 
+ * @author tet19171871
+ *
+ */
+public class Palindrome 
+{
+
+}

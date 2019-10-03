@@ -1,0 +1,60 @@
+package practice;
+
+import java.util.ArrayList;
+
+//class contains the methods
+//create and array of animals Elephant, Rhino, Lion and a Dog and Cat to the array
+//remove the Elephant from the array
+//remove all animals from the array and print that it is empty
+public class Animals
+{
+
+	public static void main(String[] args)
+	{
+		Animals names = new Animals();
+		names.list();
+		names.addAnimals();
+		names.removeAnimals();
+
+	}
+	
+	//add list of animals to the array list
+	public void list()
+	{
+		ArrayList<String> listOfAnimals = new ArrayList<String>();
+		listOfAnimals.add("Elephant");
+		listOfAnimals.add("Rhino");
+		listOfAnimals.add("Lion");
+				
+		//prints the size of the animals in the array list
+		System.out.println("size of Array: " + listOfAnimals.size());
+		
+	}
+	
+	//add list of animals to the array list
+	public void addAnimals()
+	{
+		ArrayList<String> listOfAnimals = new ArrayList<String>();
+		listOfAnimals.add("Elephant");
+		listOfAnimals.add("Rhino");
+		listOfAnimals.add("Lion");
+		listOfAnimals.add("Dog");
+		listOfAnimals.add("Cat");
+					
+		//prints the size after adding the animals to the array list
+		System.out.println("size of Array: " + listOfAnimals.size());
+			
+	}
+	
+	//remove elephant from the arraylist
+	public void removeAnimals()
+	{
+		ArrayList<String> listOfAnimals = new ArrayList<String>();
+		listOfAnimals.remove("Elephant");
+		
+		System.out.println("size of Array: " + listOfAnimals.size());
+	}
+
+	
+	
+}

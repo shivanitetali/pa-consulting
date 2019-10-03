@@ -1,0 +1,71 @@
+package practice;
+
+/**
+ * Given a string of even length, return a string made of the middle two chars, so the string "string" yields
+ * "ri". The string length will be at least2.
+ * 
+ * middleTwo("string") "ri"
+ * middleTwo("code") "od"
+ * middleTwo("Practice") "ct"
+ * @author tet19171871
+ *
+ */
+public class Middle
+{
+	
+		public String middleTwo(String str)
+		{
+			Middle middle = new Middle();
+			String outcome = middle.middleTwo("string");
+			System.out.println(outcome);
+			
+			int length = str.length() / 2;
+			String newString = str.substring(length -1, length + 1);
+			
+			return newString;
+		}
+		
+
+}
+
+
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class TestMiddleTwo
+{
+
+	@Test
+	public void middleTwo()
+	{
+		TestMiddleTwo stringUnit = new TestMiddleTwo();
+		String outcome = stringUnit.middleTwo("string");
+		assertEquals("ri",outcome);
+		assertThat(stringUnit.middleTwo("string"),stringUnit.middleTwo("ri"));
+	}
+	
+	@Test
+	public void middleTwo1()
+	{
+		TestMiddleTwo stringUnit = new TestMiddleTwo();
+		TestMiddleTwo outcome1 = stringUnit.middleTwo1("code");
+		assertEquals("od",outcome1);
+	}
+	
+	@Test
+	public void middleTwo2()
+	{
+		TestMiddleTwo stringUnit = new TestMiddleTwo();
+		TestMiddleTwo outcome2 = stringUnit.middleTwo2("Practice");
+		assertEquals("ct",outcome2);
+	}
+
+	
+
+	
+
+}

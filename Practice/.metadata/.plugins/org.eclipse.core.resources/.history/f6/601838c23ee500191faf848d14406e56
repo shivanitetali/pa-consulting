@@ -1,0 +1,21 @@
+package practice;
+
+import java.util.ArrayList;
+
+
+
+/**
+ * return an array of multiples of 5 between 0 and 100
+ * @author tet19171871
+ *
+ */
+public class Multiple
+{
+	public String middleThree(String str)
+	public ArrayList<String> Multiples()
+	{
+		
+	}
+	
+
+}

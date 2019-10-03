@@ -1,0 +1,82 @@
+package practice;
+
+import java.util.ArrayList;
+
+//class contains the methods
+//create and array of animals Elephant, Rhino, Lion and a Dog and Cat to the array
+//remove the Elephant from the array
+//remove all animals from the array and print that it is empty
+public class Animals
+{
+
+	public static void main(String[] args)
+	{
+		Animals names = new Animals();
+		
+		ArrayList<String> array = names.list();
+		//prints the size of the animals in the array list
+		System.out.println("size of Array List: " + array);
+		
+		ArrayList<String> array1 = names.addAnimals();
+		//prints the size after adding the animals to the array list
+		System.out.println("size of Array List after adding 2 animals: " + array1);
+				
+		ArrayList<String> array2 = names.removeAnimals();
+		System.out.println("size of Array List after removing Elephant: " + array2);
+		
+		ArrayList<String> array3 = names.removeAllAnimals();
+		System.out.println("size of Array List after removing all the animals: " + array3);
+
+	}
+	
+	//add list of animals to the array list
+	public ArrayList<String>list()
+	{
+		ArrayList<String> listOfAnimals = new ArrayList<String>();
+		listOfAnimals.add("Elephant");
+		listOfAnimals.add("Rhino");
+		listOfAnimals.add("Lion");
+		
+		return listOfAnimals;
+			}
+	
+	//add list of animals to the array list
+	public ArrayList<String>addAnimals()
+	{
+		ArrayList<String> listOfAnimals = new ArrayList<String>();
+		listOfAnimals.add("Elephant");
+		listOfAnimals.add("Rhino");
+		listOfAnimals.add("Lion");
+		listOfAnimals.add(3,"Dog");
+		listOfAnimals.add(4,"Cat");
+	
+		return listOfAnimals;
+			
+	}
+	
+	//remove elephant from the arraylist
+	public ArrayList<String>removeAnimals()
+	{
+		ArrayList<String> listOfAnimals = new ArrayList<String>();
+		listOfAnimals.add("Elephant");
+		listOfAnimals.add("Rhino");
+		listOfAnimals.add("Lion");
+		listOfAnimals.add("Dog");
+		listOfAnimals.add("Cat");
+		listOfAnimals.remove(0);
+		
+		return listOfAnimals;
+		
+	}
+	
+	//remove all the animals from the ArrayList
+	public ArrayList<String>removeAllAnimals()
+	{
+		ArrayList<String> listOfAnimals = new ArrayList<String>();
+		listOfAnimals.removeAll(listOfAnimals);
+		
+		return listOfAnimals;
+		
+	}
+
+}

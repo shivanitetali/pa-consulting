@@ -1,0 +1,46 @@
+package practice;
+
+/**
+ * The parameter weekday is true if it is a weekday, 
+ * and the parameter vacation is true
+ * if we are on vacation.
+ * We sleep in if it is not a weekday or
+ * we're on vacation.
+ * Return true if we sleep in.
+ * 
+ * sleepIn(false, false) is true
+ * sleepIn(true, false) is false
+ * sleepIn(false, true) is true
+ * 
+ * Given a non-empty string and an int n,
+ * return a new string where the char at 
+ */
+public class Vacation
+{
+ boolean result = true;
+ 
+	public static void main(String[] args)
+	{
+		Vacation example = new Vacation();
+		//pass the value of the method signature in the method here
+		example.vacation(true, false, false);
+
+	}
+	
+	//pass the method signature to the value you want to be printed boolean or integer
+	public boolean vacation(boolean weekday, boolean vacation, boolean sleepIn)
+	{
+		System.out.println("Weeday: " + weekday);
+		System.out.println("Vacation: " + vacation);
+		System.out.println("SleepIn: " + sleepIn);
+		
+		if (!weekday || vacation)
+		{
+			System.out.println("It is a weekday");
+		}
+		
+		return result; 
+	}
+
+}
+

@@ -1,0 +1,22 @@
+package practice;
+
+public class MethodExamples
+{
+
+	public static void main(String[] args)
+	{
+		MethodExamples methodExamples = new MethodExamples();
+		//gives me access to all the methods we will be calling in an instance
+		methodExamples.returnSomething();
+
+	}
+	
+	//cannot put void and say return as void doesnt return anything, so need to put boolean as return
+	//public void returnSomething()
+	public boolean returnSomething()
+	{
+		boolean result = false;
+		return result;
+	}
+
+}

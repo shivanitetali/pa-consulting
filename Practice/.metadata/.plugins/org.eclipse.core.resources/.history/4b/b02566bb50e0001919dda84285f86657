@@ -1,0 +1,34 @@
+package practice;
+
+public class StringExample 
+{
+	public static void main(String[] args)
+	{
+		StringExample examples = new StringExample();
+		examples.firstCharacter();
+		examples.startCharacter();
+	}
+	
+	public void firstCharacter()
+	{
+		String name = "shivani";
+		char letter = name.charAt(2);
+		//below will throw index out of range exception
+		//char letter = name.charAt(8);
+		
+		System.out.println(letter);
+	}
+
+	public void startCharacter()
+	{
+		String name = "shivani";
+		boolean startWith = name.startsWith("s");
+		if(startWith)
+		{
+			System.out.println("it starts with the character");
+		}
+				
+		
+	}
+	
+}

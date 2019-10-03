@@ -1,0 +1,27 @@
+package practice;
+
+import java.util.ArrayList;
+
+public class StringContains 
+{
+
+	public static void main(String[] args) 
+	{
+		StringContains letters = new StringContains();
+		letters.containString();
+		
+	}
+	
+	public void containString()
+	{
+		ArrayList<String> listOfStuff = new ArrayList<String>();
+		listOfStuff.add("Good");
+		listOfStuff.add("Morning");
+		listOfStuff.add("Shivani,");
+		listOfStuff.add("It's Friday");
+		System.out.println("size of Array: " + listOfStuff.size());
+		
+		System.out.println(listOfStuff.size("Good"));
+	}
+
+}

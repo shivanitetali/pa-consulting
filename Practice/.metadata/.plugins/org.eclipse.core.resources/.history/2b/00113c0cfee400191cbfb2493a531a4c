@@ -1,0 +1,11 @@
+package practice;
+
+public class StringCat
+{
+		//return two strings added together
+		public static String concatenate(String one, String two)
+		{
+			return one + two;
+		}
+
+}

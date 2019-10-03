@@ -1,0 +1,36 @@
+package practice;
+
+/**
+ * Count the number of "xx" in the given string. XX is 2
+ * countXX("abcxx") is 5
+ * countXX("xxx") is 3
+ * countXX("xxxx") is 4
+ * @author tet19171871
+ *
+ */
+
+public class CountOverlapping
+{
+
+	public static void main(String[] args)
+	{
+		CountOverlapping countoverlapping = new CountOverlapping();
+		String outcome = countoverlapping.countXX("abcxx");
+		System.out.println(outcome);
+		
+		String outcome1 = countoverlapping.countXX();
+		System.out.println(outcome1);
+		
+		String outcome2 = countoverlapping.countXX();
+		System.out.println(outcome2);
+		
+	}
+
+	public Integer countXX()
+	{
+		if 
+		
+		
+	}
+	return int;
+}

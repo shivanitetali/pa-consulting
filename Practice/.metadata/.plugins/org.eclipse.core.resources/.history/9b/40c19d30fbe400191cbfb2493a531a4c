@@ -1,0 +1,17 @@
+package practice;
+
+public class StudentEnrollment
+{
+	public static void main(String[] args) 
+	{
+		//instance to create 3 students 3 objects with 3 different information
+		Student student1 = new Student("mary", 20);
+		Student student2 = new Student("john", 22);
+		Student student3 = new Student("harry", 23);
+		System.out.println(Student.numberOfStudents);
+
+	}
+
+}
+
+//static is part of the memory for the class not the object,even if the object is deleted the static remains

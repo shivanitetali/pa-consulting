@@ -1,0 +1,12 @@
+package practice;
+
+public class ifConditions 
+{
+	//global variables
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

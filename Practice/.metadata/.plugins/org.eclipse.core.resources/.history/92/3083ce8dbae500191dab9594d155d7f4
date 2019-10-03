@@ -1,0 +1,15 @@
+package practice;
+
+public class Sum 
+{
+
+	public static void main(String[] args) 
+	{
+		int i = 3, multiplesSum = 0;
+		for (; i < 1000; i += 3) {
+			multiplesSum += i;
+		}
+
+	}
+
+}

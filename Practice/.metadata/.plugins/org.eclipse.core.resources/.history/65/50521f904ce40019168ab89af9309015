@@ -1,0 +1,21 @@
+package practice;
+
+public class Middle
+{
+
+	public String middleTwo(String str)
+	{
+		Middle middleTwo = new Middle();
+		String outcome = middleTwo.middleTwo("string");
+		System.out.println(outcome);
+		
+		int length = str.length() / 2;
+		String newString = str.substring(length -1, length + 1);
+	}
+		
+		
+		return newString;
+		
+	
+
+}

@@ -1,0 +1,26 @@
+package practice;
+
+/**
+ * syntax of for loop:
+	for(initialization; condition; increment/decrement)
+	{
+		statement(s);
+	}
+ * @author tet19171871
+ *
+ */
+public class forConditions
+{
+	public void forConditions()
+	{
+		int index = 0;
+		for()
+		{
+			
+		}
+	}
+{
+	
+}
+	
+}

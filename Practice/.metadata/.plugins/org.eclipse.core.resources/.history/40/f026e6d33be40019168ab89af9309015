@@ -1,0 +1,35 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+/**
+ * Given a string of even length, return a string made of the middle two chars, so the string "string" yields
+ * "ri". The string legth will be at least2.
+ * 
+ * middleTwo("string") "ri"
+ * middleTwo("code") "od"
+ * middleTwo("Practice") "ct"
+ * @author tet19171871
+ *
+ */
+public class StringUnit
+{
+
+	@Test
+	public void test(String str)
+	{
+		StringUnit stringUnit = new StringUnit();
+		StringUnit outcome = stringUnit.middleTwo("string");
+		assertEquals("ri",outcome);
+	}
+
+	private StringUnit middleTwo(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

@@ -1,0 +1,53 @@
+package practice;
+
+/**
+ * Given two temperatures, return true if one is less than 0 and the other is greater than 100.
+ * icyHot(120, -1) is true
+ * icyHot(-1, 120) is true
+ * icyHot(2, 120) is false
+ * 
+ * @author tet19171871
+ *
+ */
+public class Temperature
+{
+
+	//variables
+	int i = 120;
+	int x = -1;
+	int y = 2;
+	
+	public static void main(String[] args)
+	{
+		Temperature temperature = new Temperature();
+		boolean outcome = temperature.icyHot(120, -1); //true
+		boolean outcome1 = temperature.icyHot(-1, 120); //true
+		boolean outcome2 = temperature.icyHot(2, 120); //false
+		
+		if(outcome == true && outcome1 == true && outcome2 == false)
+		{
+			System.out.println("it worked");	
+		}
+		
+		//System.out.println(outcome);
+		
+	}
+	
+	public boolean icyHot(int tempA, int tempB)
+	{
+		boolean result = false;
+		
+		if((tempA < 0 && tempB > 100) || (tempA >100 && tempB < 0))
+		{
+			result = true;
+		}
+		
+		else
+		{
+			result = false;
+		}
+		
+		return result;
+	}
+
+}

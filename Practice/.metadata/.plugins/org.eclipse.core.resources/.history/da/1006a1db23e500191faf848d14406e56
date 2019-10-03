@@ -1,0 +1,37 @@
+package practice;
+
+import static org.junit.Assert.*;
+/**
+ * will test if the conditions given will pass
+ */
+
+import org.junit.Test;
+
+public class BracketsTest
+{
+
+	/**
+	 * will test if the string contains "[()]"
+	 */
+	@Test
+	public void testInputBalanced()
+	{
+		String result = Brackets.balancedBrackets("[()]");
+		
+		assertEquals("Balanced",result);
+		
+	}
+	
+	/**
+	 * will test if the string contains "{()}"
+	 */
+	@Test
+	public void testInputBalanced1()
+	{
+		String result = Brackets.balancedBrackets("{()}");
+		
+		assertEquals("Balanced",result);
+		
+	}
+
+}

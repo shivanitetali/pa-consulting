@@ -1,0 +1,18 @@
+package practice;
+
+public class StudentEnrollment extends Student
+{
+
+	public StudentEnrollment(String name, String age) 
+	{
+		super(name, age);
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

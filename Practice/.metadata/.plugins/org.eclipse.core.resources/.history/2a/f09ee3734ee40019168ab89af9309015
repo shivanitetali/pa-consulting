@@ -1,0 +1,37 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+//this test will call the method in the Middle class
+public class MiddleTest {
+
+	@Test
+	public void testMiddle()
+	{
+
+		Middle middle = new Middle();
+		String outcome = middle.middleTwo("string");
+		str.length("ri",outcome);
+	}
+	
+	@Test
+	public void testMiddle()
+	{
+
+		Middle middle = new Middle();
+		String outcome = middle.middleTwo("string");
+		assertEquals("ri",outcome);
+	}
+
+	
+	@Test
+	public void testMiddle()
+	{
+
+		Middle middle = new Middle();
+		String outcome = middle.middleTwo("string");
+		assertEquals("ri",outcome);
+	}
+}

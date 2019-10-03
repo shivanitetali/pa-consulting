@@ -1,0 +1,29 @@
+package practice;
+
+public class MethodExamples
+{
+
+	public static void main(String[] args)
+	{
+		MethodExamples methodExamples = new MethodExamples();
+		//gives me access to all the methods we will be calling in an instance
+		//left side is the instance and calling a method on the right side
+		boolean result = methodExamples.returnSomething();
+		
+		System.out.println(("the outcome was : " + result));
+
+	}
+	
+	//cannot put void and say return, as void doesn't return anything
+	//public void returnSomething()
+	//so need to put boolean as return
+	public boolean returnSomething()
+	{
+		//local variable passing the information to the main method
+		boolean result = true;
+		//return information goes back to main method and prints from the main
+		return result;
+	}
+
+}
+

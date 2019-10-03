@@ -1,0 +1,16 @@
+package practice;
+
+public class StringExample 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	public void firstCharacter()
+	{
+		String name = "shivani";
+		name.charAt(2);
+	}
+
+}

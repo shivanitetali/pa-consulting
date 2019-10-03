@@ -1,0 +1,14 @@
+package practice;
+
+public class MethodExamples
+{
+
+	public static void main(String[] args)
+	{
+		MethodExamples methodExamples = new MethodExamples();
+		//gives me access to all the methods we will be calling in an instance
+		methodExamples.returnSomething();
+
+	}
+
+}

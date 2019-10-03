@@ -1,0 +1,19 @@
+package practice;
+
+//class contains the methods
+//create and array of animals Elephant, Rhino, Lion and a Dog and Cat to the array
+//remove the Elephant from the array
+//remove all animals from the array and print that it is empty
+public class Animals
+{
+
+	public static void main(String[] args)
+	{
+		Animals animals = new Animals;
+		animals.
+
+	}
+	
+	public void
+
+}

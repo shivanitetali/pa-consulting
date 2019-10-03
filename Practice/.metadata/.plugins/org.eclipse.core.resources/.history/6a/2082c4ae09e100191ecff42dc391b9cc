@@ -1,0 +1,23 @@
+package practice;
+
+import java.util.ArrayList;
+
+public class ArrayExamples
+{
+
+	public static void main(String[] args) 
+	{
+		ArrayExamples arrayExamples = new ArrayExamples();
+		arrayExamples.addStringToArrayList();
+
+	}
+
+	public void addStringToArrayList()
+	{
+	ArrayList<String> listOfStuff = new ArrayList<String>();
+	listOfStuff.add("hello");
+	
+	
+	return listOfStuff;
+	}
+	

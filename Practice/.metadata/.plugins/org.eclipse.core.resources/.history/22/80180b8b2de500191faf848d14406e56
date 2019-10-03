@@ -1,0 +1,167 @@
+package practice;
+import java.util.ArrayList;
+
+/**
+ * balancedBrackets("[()]")
+ * Input: exp = "[()]"
+ * Output: Balanced
+ * 
+ * Input: exp = "{()}"
+ * Output: Balanced
+ * 
+ * Input: exp = "[]{}()"
+ * Output: Balanced
+ * 
+ * Input: exp = "[)[)"
+ * Output: Not Balanced
+ * 
+ * Input: exp = "()]()"
+ * Output: Not Balanced
+ * 
+ * @author tet19171871
+ *
+ */
+	public class Brackets 
+	{
+		/**
+		 * method that returns String Output as 'Balanced' or 'Not Balanced' based on whether equation is true or false
+		 * @return
+		 */
+		public static boolean balancedBrackets(String input ) 
+		{
+			int openSquare = 0;
+			int closedSquare = 0;
+			int openBrackets = 0;
+			int closedBrackets = 0;
+			int openCurley = 0;
+			int closedCurley = 0;
+			     	int open = 0;
+			     	int close = 0;
+			        for (int index=0; index < input.length(); index++) {
+			            switch (input.charAt(index)) {
+			                case '[':			                	                	
+			                case '{':
+			                case '(':
+			                
+			                    open++;
+			                    break;
+			                    
+			                case '}':
+			                case ')':
+			                case ']':
+			                    close++;
+			            default:
+			                break;
+			            }
+			        }
+			        if (open == close){
+			            return true;
+			        }
+			        else {
+			            return false;
+			        }
+			    }
+		public static void main(String args[]) 
+		{
+		    System.out.println(Brackets.balancedBrackets("()"));
+		}
+		}
+		
+	
+
+//	public static String balancedBrackets(String str ) 
+//	{	
+//		String result = "Balanced"; //success message + the default value
+//		String fail = "Not Balanced"; //fail message + the default value
+//		
+//		int openSquare = 0;
+//		int closedSquare = 0;
+//		int openBrackets = 0;
+//		int closedBrackets = 0;
+//		int openCurley = 0;
+//		int closedCurley = 0;
+//		
+//	
+//		for(int index = 0; index < str.length(); index++)
+//		{
+//			/**
+//			 * checking for the count of the open and closed Square
+//			 */
+//			if(str.charAt(index) == '[')
+//			{
+//				openSquare++;
+//			}
+//				else if(str.charAt(index) == ']')
+//				{
+//					closedSquare++;
+//				}
+//			//System.out.println(index);
+//			
+//			/**
+//			 * checking for the count of the open and closed Brackets
+//			 */
+//			if(str.charAt(index) == '(')
+//			{
+//				openBrackets++;
+//			}
+//			else if (str.charAt(index) == ')')
+//			{
+//				closedBrackets++;
+//			}
+//			
+//						
+//			/**
+//			 * checking for the count of the open and closed Curley
+//			 */
+//			if(str.charAt(index) == '{')
+//			{
+//				openCurley++;
+//			}
+//			else if (str.charAt(index) == '}')
+//			{
+//				closedCurley++;
+//			}
+//			
+//			if(openSquare == closedSquare  && openBrackets == closedBrackets && openCurley == closedCurley )
+//			{
+//				return result;
+//			}
+//					return fail;
+//				
+//		}
+//		System.out.println(result);
+//	
+//		return result;
+//	}
+//}
+//
+//
+////if(str.length() == 0 || str.length() % 2 == 1)
+////{
+////	return result;
+////}
+////else
+////{
+////	return fail;
+////}
+////
+////
+///**
+// * String split into array of char
+// * length of the array
+// * checked every index
+// * variable to count
+// * counted how many open and close brackets
+// * if they were equal
+// * result balanced
+// * 
+// *  
+// * String builder
+// * used other methods to break up the code
+// * 
+// * 
+// * connect index checks inner index 
+// * loop through the remainder of string to find corresponding closing parenthesis
+// */
+//
+//

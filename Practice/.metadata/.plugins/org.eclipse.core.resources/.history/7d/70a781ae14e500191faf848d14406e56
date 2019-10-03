@@ -1,0 +1,41 @@
+package practice;
+
+
+/**
+ * balancedBrackets("[()]")
+ * Input: exp = "[()]"
+ * Output: Balanced
+ * 
+ * Input: exp = "{()}"
+ * Output: Balanced
+ * 
+ * Input: exp = "[]{}()"
+ * Output: Balanced
+ * 
+ * Input: exp = "[)[)"
+ * Output: Not Balanced
+ * 
+ * Input: exp = "()]()"
+ * Output: Not Balanced
+ * 
+ * @author tet19171871
+ *
+ */
+public class Brackets 
+{
+	public static String balancedBrackets(String Balanced ) 
+	{
+		
+		int length = Balanced.length() / 2;
+		
+		String newString = Balanced.substring(length -1, length + 1);
+		
+		return newString;
+		//System.out.println(Balanced);
+		//return "[()]" + Balanced;
+
+	}
+
+}
+
+//if the char is [ print[]

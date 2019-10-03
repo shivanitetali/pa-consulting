@@ -1,0 +1,32 @@
+package practice;
+
+public class LastDay 
+{
+
+	/**
+	 * always use this pattern before starting anycode
+	 * @param word
+	 * @return
+	 */
+	public String returnSomething(String word) 
+	{
+		String result = "";
+		
+		return result;
+
+	}
+	
+	/**
+	 * always use this pattern before starting anycode
+	 * @param word
+	 * @return
+	 */
+	public boolean returnSomething1(String word) 
+	{
+		boolean result = false;
+		
+		return result;
+
+	}
+
+}

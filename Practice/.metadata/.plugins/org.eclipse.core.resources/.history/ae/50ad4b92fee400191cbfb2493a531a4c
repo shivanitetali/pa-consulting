@@ -1,0 +1,13 @@
+package practice;
+
+public class StringCatDriver
+{
+
+	public static void main(String[] args) 
+	{
+		//StringCat.concatenate("string1", "string2");
+		System.out.println(StringCat.concatenate("string1", "string2"));
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class GreetingTest 
+{
+
+	@Test
+	public void testConcatenate()
+	{
+		//calling the method concatenate from class StringCat
+		String result = Greeting.concatenate("Bob!");
+				
+		assertEquals("Hello Bob!",result);
+	}
+
+}

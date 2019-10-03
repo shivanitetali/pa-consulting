@@ -1,0 +1,17 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ColorsTest {
+
+	@Test
+	public void testSeeColor() 
+	{
+		
+		Colors color = new Colors();
+		assertEquals(("red"),Colors.seeColor("redxx");
+	}
+
+}

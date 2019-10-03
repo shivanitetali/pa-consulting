@@ -1,0 +1,37 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class GreetingTest 
+{
+
+	@Test
+	public void testConcatenateHelloBob()
+	{
+		//calling the method concatenate from class StringCat
+		String result = Greeting.concatenate("Bob");
+				
+		assertEquals("Hello Bob!",result);
+	}
+	
+	@Test
+	public void testConcatenateHelloAlice()
+	{
+		//calling the method concatenate from class StringCat
+		String result = Greeting.concatenate("Alice");
+				
+		assertEquals("Hello Alice!",result);
+	}
+	
+	@Test
+	public void testConcatenateHelloX()
+	{
+		//calling the method concatenate from class StringCat
+		String result = Greeting.concatenate("X");
+				
+		assertEquals("Hello X!",result);
+	}
+
+}
