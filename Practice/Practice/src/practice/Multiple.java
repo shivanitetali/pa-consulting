@@ -9,7 +9,8 @@ package practice;
  */
 public class Multiple
 {
-	public static void multiplesOfFive(int number)
+
+	public static int multiplesOfFive(int number)
 	{
 		//int index;
 //        for (index = 0; index <= 100; index++) 
@@ -26,14 +27,19 @@ public class Multiple
 //        System.out.println(index);
 //        return index;
 //	}
-	
-		for(int i = 0 ; i < 100; i++) //Loop from 0 to 100
+		//Loop from 0 to 100
+		for(int i = 0 ; i < 100; i++) 
 		{ 
-	      if(i % 3 == 0 || i % 5 == 0 ) //check the number is divisible by 3 or 5
+		  //check the number is divisible by 3 or 5
+	      if(i % 3 == 0 || i % 5 == 0 ) 
 	       {
-	    	  System.out.println(i); //print the number if it is divisible by 3 or 5
+	    	//print the number if it is divisible by 3 or 5
+	    	  System.out.println(i); 
 	       }
+	    
 		}
+		System.out.println(number); 
+		return number;
 	
 	
 	}
